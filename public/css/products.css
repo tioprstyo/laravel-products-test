@@ -1,0 +1,11 @@
+#products-table td {
+    overflow-wrap: anywhere;
+}
+
+#products-table .form-control-sm {
+    min-width: 6rem;
+}
+
+.text-nowrap-md {
+    white-space: nowrap;
+}

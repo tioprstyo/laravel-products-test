@@ -1,0 +1,6 @@
+# Lets the app run when the project root (not /public) is the web root,
+# e.g. after extracting the zip into an Apache htdocs folder.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
